@@ -1,7 +1,7 @@
 {
     "name": "my pwa app",
     "short_name": "box app",
-    "start_url": "/public/demo01.html",
+    "start_url": "/pwa_study/public/demo01.html",
     "display": "standalone",
     "theme_color": "#FFDF00",
     "background_color": "#FFDF00",
