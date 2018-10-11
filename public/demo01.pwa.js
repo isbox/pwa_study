@@ -1,11 +1,10 @@
 
 self.addEventListener('install', e => {
     e.waitUntil(
-       caches.open('airhorner').then(cache => {
+        caches.open('airhorner').then(cache => {
            return cache.addAll([
-               '/',
-               '/public/demo01.pwa.js',
-               '/public/manifest.json'
+               '/pwa_study/public/demo01.pwa.js',
+               '/pwa_study/public/manifest.json'
            ])
        })
     )
