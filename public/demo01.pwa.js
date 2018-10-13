@@ -12,5 +12,9 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('fetch', event => {
-    
+    console.log(222)
+})
+
+self.addEventListener('notificationclick', function (e) {
+    console.log(11111)
 })
